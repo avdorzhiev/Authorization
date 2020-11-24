@@ -1,0 +1,17 @@
+<div class="container">
+
+    <div class="form-control">
+        <label>Name</label>
+        <input type="text" placeholder="Name" [(ngModel)]="name">
+        <div class="validation"></div>
+    </div>
+
+    <div class="form-control">
+        <label>Пароль</label>
+        <input type="password" placeholder="Пароль" [(ngModel)]="password">
+        <div class="validation"></div>
+    </div>
+
+    <button class="btn" (click)="login()">Войти</button>
+
+</div>
